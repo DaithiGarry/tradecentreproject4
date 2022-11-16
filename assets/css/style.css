@@ -155,6 +155,24 @@ button {
     padding: 8px;
 }
 
+
+.mainpagedisplay {
+    
+    margin-top: 45px;
+    min-height: 50vh;
+}
+
+.griddisplayforat {
+    
+    margin-top: 45px;
+    min-height: 50vh;
+}
+
+.tradingstation {
+    
+    margin-top: 10px;
+    max-height: fit-content;
+}
 .mainworkspace {
     width: 100%;
     margin-left: auto;
@@ -163,6 +181,7 @@ button {
     display: block;
     padding-left: 18px;
     padding-right: 18px;
+    margin-top: 50px;
 }
 
 .lowerworkspace {
