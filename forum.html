@@ -14,41 +14,6 @@
         <div class="bannerpagetop">
             
             <div class="bannercontainer">
-                <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_05788"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/XRPUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">XRPUSDT Chart</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "width": 980,
-  "height": 610,
-  "symbol": "BINANCE:XRPUSDT",
-  "interval": "D",
-  "timezone": "Etc/UTC",
-  "theme": "dark",
-  "style": "1",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": true,
-  "allow_symbol_change": true,
-  "watchlist": [
-    "BINANCE:MATICUSDT",
-    "BINANCE:BTCUSDT",
-    "BINANCE:ETHUSDT",
-    "BINANCE:SHIBUSDT",
-    "BINANCE:DOGEUSDT",
-    "BINANCE:CHZUSD",
-    "BINANCE:XLMUSDT",
-    "BINANCE:BNBUSDT"
-  ],
-  "container_id": "tradingview_05788"
-}
-  );
-  </script>
-</div>
-<!-- TradingView Widget END -->
                 <div class="bannercontainersections">
                     <div class="bannerlogoleft">
                         <a class="logo"><img class="logo" src=route.location>
@@ -63,20 +28,73 @@
             </div>
 
         </div>
+        <div>
+          <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "description": "Matic",
+      "proName": "BINANCE:MATICUSDT"
+    },
+    {
+      "description": "Solana",
+      "proName": "BITSTAMP:SOLUSD"
+    },
+    {
+      "description": "Doge",
+      "proName": "BINANCE:DOGEUSDT"
+    },
+    {
+      "description": "Shib",
+      "proName": "BINANCE:SHIBUSDT"
+    },
+    {
+      "description": "XRP",
+      "proName": "BINANCE:XRPUSDT"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+        </div>
     </div>
     <div class="mainworkspace">
         <div class="maintoppanel">
             <h1 class="h1text">Forum</h1>
         </div>
-        <div class="mainpagedisplay">
-            <div class="griddisplayforat">
+        <div class="mainpagedisplaytradestation">
                 <div class="imageleft">
                     <div class="textleftworkspace">
                     Keep the community up to date and in the known of what is coming in the markets!
                     Perform your data analysis with us at trade center and post your ideas below!
                     </div>
                 </div>
-            </div>
         </div>
         <div class="tradingstation">
                     <!-- TradingView Widget BEGIN -->
@@ -87,7 +105,8 @@
               <script type="text/javascript">
               new TradingView.widget(
               {
-              "autosize": true,
+              "width": 980,
+              "height": 610,
               "symbol": "BINANCE:XRPUSDT",
               "interval": "D",
               "timezone": "Etc/UTC",
